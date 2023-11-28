@@ -13,10 +13,19 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    
     "paths": {
       "@/*": ["./src/*"]
     }
+  //   "paths": {
+  //     "@project/app/modules/*": [
+  //         "src/modules/*"
+  //     ],
+  //     "@project/server/data/*": [
+  //         "server/src/json/*"
+  //     ]
+  // },
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [ "next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }
